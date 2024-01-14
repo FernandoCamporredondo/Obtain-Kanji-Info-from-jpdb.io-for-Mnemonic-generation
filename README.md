@@ -4,7 +4,7 @@ This is a userscript for the website https://jpdb.io. It inserts a button on the
 
 ## Usage
 
-1. Install the script using a userscript manager like Tampermonkey. You can easily install it here --> 
+1. Install the script using a userscript manager like Tampermonkey. You can easily install it here --> https://greasyfork.org/en/scripts/484815-obtain-kanji-info-from-jpdb-io-for-mnemonic-generation
 2. Navigate to https://jpdb.io and learn new kanjis following the normal flow for it.
 3. fter a new kanji is revealed, a new button will appear: "Copy Kanji Info for Mnemonic generation".
 4. Click the button to copy the kanji information to your clipboard.
