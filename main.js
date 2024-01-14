@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         New Userscript
+// @name         Obtain-Kanji-Info-from-jpdb.io-for-Mnemonic-generation
 // @namespace    http://tampermonkey.net/
 // @version      2024-01-14
-// @description  try to take over the world!
-// @author       You
+// @description  Will insert into the clipboard the info already parsed so that you only need to paste in for generating mnemonics
+// @author       Fernando
 // @match        https://jpdb.io/review
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=jpdb.io
 // @grant        none
@@ -35,5 +35,5 @@
     }
 
     if ( document.querySelectorAll('.subsection-composed-of-kanji') ) insertButtonForKanjiInfoGen();
-    
+
 })();
